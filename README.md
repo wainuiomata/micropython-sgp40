@@ -31,7 +31,7 @@ import time
 from machine import I2C, Pin
 from sgp40 import SGP40
 
-i2cbus = I2C(1)
+i2c = I2C(1)
 sgp40 = SGP40(i2c, 0x59)
 
 while True:
